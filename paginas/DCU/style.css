@@ -52,14 +52,14 @@ body{
 }
 
 .card{
-    width: 50%;
+    width: 45%;
     margin: 5% auto;
     align-items: center;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 4px 4px 12px #aaa;
     transition: 0.5s;
-    background-color: #e3f9fe;
+    background-color: #ffffff;
 }
 
 .card p{
@@ -74,11 +74,21 @@ body{
     margin-bottom: 1%;
 }
 
-.card h3{
+.card h2{
     text-align: center;
-    text-decoration: underline;
 }
 
 .card:hover{
-    width: 50.5%;
+    width: 45.5%;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main h1{
+    text-align: center;
+    text-decoration: underline;
 }
