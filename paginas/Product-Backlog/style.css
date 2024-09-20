@@ -51,15 +51,37 @@ body{
     font-size: 20px;
 }
 
-.card{
-    width: 50%;
+.card-Alta{
+    width: 45%;
     margin: 5% auto;
     align-items: center;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 4px 4px 12px #aaa;
     transition: 0.5s;
-    background-color: #e3f9fe;
+    background-color: rgb(239, 69, 69);
+}
+
+.card-Media{
+    width: 45%;
+    margin: 5% auto;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 12px #aaa;
+    transition: 0.5s;
+    background-color: rgb(224, 224, 73);
+}
+
+.card-Baixa{
+    width: 45%;
+    margin: 5% auto;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 12px #aaa;
+    transition: 0.5s;
+    background-color: rgb(155, 248, 169);
 }
 
 .card p{
@@ -79,6 +101,23 @@ body{
     text-decoration: underline;
 }
 
+.card h4 {
+    text-align: center;
+}
+
 .card:hover{
-    width: 50.5%;
+    width: 46%;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.introducao{
+    text-align: center;
+    margin: 0 auto;
+}
+.introducao p{
+    font-size: 20px;
 }
